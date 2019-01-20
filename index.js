@@ -1,1 +1,5 @@
-// Write your solution in this file!
+function destructivelyDeleteFromDriverByKey(driver, key) {
+  delete driver.key;
+  
+  return driver;
+}
